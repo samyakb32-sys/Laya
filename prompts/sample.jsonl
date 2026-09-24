@@ -1,0 +1,30 @@
+{"prompt": "Write a polite email to my manager asking for leave on Friday", "agent": "email"}
+{"prompt": "Reply to this customer email saying we've issued the refund", "agent": "email"}
+{"prompt": "Draft a follow-up email after a job interview", "agent": "email"}
+{"prompt": "Write a Python function that checks if a string is a palindrome", "agent": "code"}
+{"prompt": "My React app re-renders infinitely when I set state inside useEffect. Debug it.", "agent": "code"}
+{"prompt": "Explain what this SQL query does: SELECT * FROM orders WHERE status = 'pending'", "agent": "code"}
+{"prompt": "What is 15% of 340?", "agent": "math"}
+{"prompt": "A train leaves at 9:40 at 72 km/h, another leaves at 10:15 at 90 km/h. When does the second catch up?", "agent": "math"}
+{"prompt": "Convert 5 miles to kilometers", "agent": "math"}
+{"prompt": "Summarize this article about photosynthesis in 3 bullet points", "agent": "summarize"}
+{"prompt": "Give me the key takeaways from this meeting transcript", "agent": "summarize"}
+{"prompt": "Translate 'where is the railway station' into Hindi and French", "agent": "translate"}
+{"prompt": "What does 'break a leg' mean, and how would I say it in Spanish?", "agent": "translate"}
+{"prompt": "Write a short poem about the monsoon", "agent": "writing"}
+{"prompt": "Write an Instagram caption for a sunset beach photo", "agent": "writing"}
+{"prompt": "Write the opening paragraph of a mystery story set in a small town", "agent": "writing"}
+{"prompt": "Rewrite my resume bullet point: 'Worked on backend stuff' to sound more impressive", "agent": "resume"}
+{"prompt": "Write a cover letter for a data analyst position at a fintech startup", "agent": "resume"}
+{"prompt": "Explain what an API is to a 10 year old", "agent": "study"}
+{"prompt": "I don't understand photosynthesis, can you explain it simply?", "agent": "study"}
+{"prompt": "What's the difference between TCP and UDP?", "agent": "study"}
+{"prompt": "Plan a 3-day Goa trip for two people under 15000 rupees with a day-by-day itinerary", "agent": "planning"}
+{"prompt": "Help me build a study schedule for my exams next month, 5 subjects", "agent": "planning"}
+{"prompt": "I have 3 job offers with different salaries and locations. Help me build a decision framework.", "agent": "planning"}
+{"prompt": "Give me a recipe for butter chicken for 4 people", "agent": "recipe"}
+{"prompt": "What can I substitute for eggs in a cake recipe?", "agent": "recipe"}
+{"prompt": "hi, how are you?", "agent": "general"}
+{"prompt": "What is the capital of Japan?", "agent": "general"}
+{"prompt": "Thanks, that helped!", "agent": "general"}
+{"prompt": "Who won the cricket world cup in 2011?", "agent": "general"}

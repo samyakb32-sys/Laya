@@ -1,0 +1,26 @@
+# Copy to config.yaml and edit.
+
+# laya       -> run Laya inside this process (pip install laya; ~1 GB download on first run)
+# laya-http  -> call a running `laya-serve` at laya_url
+# heuristic  -> keyword rules over agents.yaml's `criteria` text, no model (to try it quickly)
+classifier: laya
+laya_url: http://localhost:8000
+laya_device: cpu         # Laya's own encoder (~400M) runs fine on CPU: no GPU needed for routing
+
+# Below this confidence, use the fallback agent instead of guessing which task this is.
+min_confidence: 0.5
+fallback_agent: general
+# If the chosen agent replies "I'm not sure...", retry once with the fallback agent.
+escalate_on_unsure_reply: true
+
+agents_file: agents.yaml
+
+# ONE small model serves every sub-agent — only the system prompt changes per task.
+# Any OpenAI-compatible, CPU-friendly server works. With Ollama (recommended, no GPU needed):
+#   ollama pull llama3.2:3b
+# 1-3B models run acceptably on a modern CPU; 7-8B will be noticeably slower without a GPU.
+backend:
+  base_url: http://localhost:11434/v1
+  model: llama3.2:3b
+  max_tokens: 1024
+  timeout_s: 300
