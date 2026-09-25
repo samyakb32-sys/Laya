@@ -1,0 +1,9 @@
+{
+  "name": "devtools",
+  "private": true,
+  "type": "module",
+  "description": "Static, dependency-free developer utility tools (JSON, Base64, hashes, regex, and more).",
+  "scripts": {
+    "test": "node --test tests/lib.test.mjs"
+  }
+}
